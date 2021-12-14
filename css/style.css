@@ -1,0 +1,278 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Header css boshlanishi */
+.header {
+    margin-bottom: 117px;
+    padding-top: 41px;
+    display: flex;
+    align-items: center;
+}
+
+.header-right {
+    margin-left: 175px;
+}
+
+.header-btm-list {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-btm-link {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: #373737;
+}
+
+.btm-item {
+    margin-right: 70px;
+}
+
+.header-btn {
+    border: 2px solid #717CFF;
+    border-radius: 11px;
+    padding: 9px 35px 13px;
+    background-color: #fff;
+}
+
+.header-line {
+    width: 23px;
+    height: 2px;
+    background: #717CFF;
+    border-radius: 2px;
+}
+
+/*Header_css_tugashi_*/
+
+/*Hero_bottom_boshlanishi*/
+.hero-bottom {
+    display: flex;
+    margin-bottom: 54px;
+}
+
+.hero-title {
+    width: 632px;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 66px;
+    color: #2F2F2F;
+}
+
+.blue-span {
+    color: #717CFF;
+}
+
+.help-poragraph {
+    width: 632px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 38px;
+    color: #7D7D7D;
+    padding-bottom: 42px;
+}
+
+.online-btn {
+    display: flex;
+    align-items: center;
+    padding: 12px 37px 12px 34px;
+    background: #717CFF;
+    border-radius: 11px;
+    border: none;
+    margin-bottom: 106px;
+}
+
+.online-text {
+    width: 138px;
+    height: 40px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+.online-img {
+    margin-left: 34px;
+}
+
+.social-list {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.social-item {
+    margin-left: 27px;
+}
+
+.hero-btm-right {
+    margin-left: 65px;
+}
+
+/*Hero_bottom_tugashi*/
+
+/*section_university_boshlanishi*/
+#univer-section {
+    padding: 0px 120px 59px;
+    background-color: #FAFAFA;
+}
+.univer-div{
+    padding-top: 55px;
+}
+.univer-text {
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #373737;
+    margin-bottom: 86px;
+}
+
+.univer-list {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    margin-bottom: 104px;
+}
+
+.dot-div {
+    width: 107px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.dot-span {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    border: none;
+    background-color: #d2d2d2;
+}
+
+.active {
+    width: 14px;
+    height: 14px;
+    background-color: #717CFF;
+}
+
+/*section_university_tugashi*/
+
+/*secton-services_boshlanish*/
+.services {
+    padding-top: 122px;
+}
+
+.services-title {
+    text-align: center;
+    height: 54px;
+    font-weight: bold;
+    font-size: 37px;
+    line-height: 54px;
+    color: #373737;
+    margin-bottom: 25px;
+}
+
+.services-text {
+    width: 949px;
+    height: 80px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 38px;
+    text-align: center;
+    color: #7D7D7D;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 104px;
+}
+
+.services-top {
+    margin-bottom: 56px;
+}
+
+.serv-list-top {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.services-img {
+    margin-bottom: 30px;
+}
+
+.list-title {
+    width: 279px;
+    height: 37px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 37px;
+    color: #37474F;
+    margin-bottom: 9px;
+}
+
+.list-text {
+    width: 296px;
+    height: 90px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(55, 71, 79, 0.721569);
+    margin-bottom: 25px;
+}
+
+.learn-div {
+    display: flex;
+    align-items: center;
+}
+
+.learn-link {
+    text-decoration: none;
+    width: 92px;
+    height: 20px;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    color: #717CFF;
+}
+
+.services-item-top {
+    padding: 29px 17px 34px 31px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 77px rgba(0, 0, 0, 0.06);
+    border-radius: 15px;
+}
+
+.serv-list-bottom {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.services-item-btm {
+    padding: 29px 17px 34px 31px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 77px rgba(0, 0, 0, 0.06);
+    border-radius: 15px;
+}
+.arrow{
+    padding-left: 20px;
+}
+/*secton-services_tugashi*/
